@@ -12,25 +12,20 @@ Console.WriteLine($"Account Number {account.Number} was specifically created for
 /*var myaccount = new BankAccount("Sir Angote", 777444);
 Console.WriteLine($"The Account Number {myaccount.Number} was exclusively created for {myaccount.Owner} with a registered initial balance of {myaccount.Balance}");*/
 
+//Testing the in-biult binary search
+
+//Array in question
+//int[] mainArr = {9,8,7,6,5,4,3,2,1};
+
+//Array.Sort(mainArr);
+
+//Implemenatation of binary search, the method returns the index
+//int number  = Array.BinarySearch(mainArr, 2);
+//Console.Write("The index in question is "+number);
 
 
-//int[] arr_ = {1,2,3,4};
+//Testing the Stock class
 
-
-
-int[] arr = { 1, 60, -10, 70, -80, 85 };
-
-int[] arr1 = {25,42,-31,12,55,-20,-18,-48,16,34 };
-
-int[] arr3 = {1, 2, 3, 14, 7, 10};
-
- 
-
-/*
-Delta mydel = new Delta();
-
-mydel(arr3);*/
-
-
-Summation summation = new Summation();
-summation.Two_sum_zero_solution(arr, 6);
+int[] prices = { 7, 1, 5, 3, 6, 4 };
+Stock stock = new Stock();
+stock.MaxProfit(prices);
