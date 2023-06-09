@@ -24,13 +24,20 @@ int[] arr1 = {25,42,-31,12,55,-20,-18,-48,16,34 };
 
 int[] arr3 = {1, 2, 3, 14, 7, 10};
 
+int[] arr_a = { 1, 5, 3, 8 };
+int[] arr_b = { 5, 4, 3, 7 };
+
+int[] sb_arr = {7,1,5,3,6,4};
+//int[] arr_a = { 6, 2, 3, 4 };
+//int[] arr_b = { 4, 5, 4, 4 };
+
  
 
-/*
+
 Delta mydel = new Delta();
 
-mydel(arr3);*/
+mydel.StockBroke(sb_arr);
 
-
+/*
 Summation summation = new Summation();
-summation.Two_sum_zero_solution(arr, 6);
+summation.Two_sum_zero_solution(arr, 6);*/
